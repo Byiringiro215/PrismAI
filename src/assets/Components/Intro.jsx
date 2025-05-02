@@ -1,4 +1,4 @@
-git add .
+
 
 import IntroButtons from './Buttons/IntroButtons'
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
