@@ -45,7 +45,7 @@ const Features = () => {
     <div className='grid  lg:grid-cols-3 gap-[2rem] px-2'>
       {features.map((feature,index)=>{
         return(
-            <div className='flex flex-col gap-[1rem] w-full p-6 rounded-3xl border border-purple-900 bg-gray-900' key={index}>
+            <div className='flex flex-col gap-[1rem] w-full p-6 rounded-3xl border border-purple-900 bg-gray-900  hover:scale-105 transition-all duration-700 ' key={index}>
 <div className='h-[3rem] w-[3rem] p-3 rounded-full  bg-gradient-to-br from-[#3C0D99]  via-[#5B1FA8] to-[#1C0D4D]'>
 {feature.icon}
 </div>
