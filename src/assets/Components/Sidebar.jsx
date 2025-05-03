@@ -10,9 +10,10 @@ export const navbarlinks = [
   { label: 'Testimonials', id: '#Testimonies' },
   { label: 'Pricing', id: '#Transportation' },
   { label: 'Login', id: '#' },
+  { label: 'SignUp', id: '#' }
 ];
 
-const Sidebar = ({ setShowLogin }) => {
+const Sidebar = () => {
   const { showSidebar, toogleSidebar } = useSidebar();
 
   return (
