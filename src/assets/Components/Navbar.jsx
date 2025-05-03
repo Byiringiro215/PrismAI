@@ -15,7 +15,7 @@ const Navbar = () => {
   const { toogleSidebar } = useSidebar();
 
   return (
-    <div className="fixed w-full flex items-center justify-between bg-[#15192D] py-3 px-[4rem] h-[5rem] z-20 shadow-xl">
+    <div className="fixed w-full flex items-center justify-between  py-3 px-[4rem] h-[5rem] z-20 shadow-xl">
       <Logo />
       <div className="hidden lg:flex gap-7">
         {navbarlinks.map((link, index) => (
