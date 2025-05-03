@@ -11,11 +11,11 @@ export const navbarlinks = [
   { label: 'Pricing', id: '#Transportation' },
 ];
 
-const Navbar = ({ setShowLogin }) => {
+const Navbar = () => {
   const { toogleSidebar } = useSidebar();
 
   return (
-    <div className="fixed w-full flex items-center justify-between bg-[#15192D] py-3 px-[4rem] h-[5rem] z-20">
+    <div className="fixed w-full flex items-center justify-between bg-[#15192D] py-3 px-[4rem] h-[5rem] z-20 shadow-xl">
       <Logo />
       <div className="hidden lg:flex gap-7">
         {navbarlinks.map((link, index) => (
@@ -28,7 +28,7 @@ const Navbar = ({ setShowLogin }) => {
           </a>
         ))}
       </div>
-      <NavbarButtons setShowLogin={setShowLogin} />
+      <NavbarButtons/>
       <Bars3Icon
         className="block lg:hidden text-white w-[30px] h-[30px] cursor-pointer"
         onClick={toogleSidebar}

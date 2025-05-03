@@ -5,6 +5,8 @@ import { FaRobot } from "react-icons/fa6";
 import { FaUserAlt } from "react-icons/fa";
 import { FaMicrophone } from "react-icons/fa";
 import { FaFlagCheckered } from "react-icons/fa";
+
+
 const ai=<FaRobot className='h-4 w-7 text-pink-500'/>
 const user=<FaUserAlt className='h-4 w-7 text-green-300'/>
 const Chat = () => {
