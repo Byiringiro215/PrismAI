@@ -12,6 +12,7 @@ import Transportation from './assets/pages/Transportation';
 import ReadyToTransform from './assets/pages/ReadyToTransform';
 import Footer from './assets/pages/Footer';
 
+
 function App() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const startTime = 9;
