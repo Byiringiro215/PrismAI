@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const NavbarButtons = ({setShowLogin}) => {
   return (
     <div className='hidden lg:flex justify-between gap-5 items-center '>
-      <Link className='text-gray-400 hover:text-purple-600 font-bold  h-[2.5rem] w-[6rem] ' to='http://localhost:3000/login'>Login</Link>
+      <Link className='text-gray-400 hover:text-purple-600 font-bold  h-[2.5rem] w-[6rem] mt-5 ' to='http://localhost:3000/login'>Login</Link>
       
       
     
