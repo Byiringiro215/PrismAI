@@ -4,7 +4,7 @@ const Logo = () => {
   return (
     <div className=''>
 
-  <img src="/prism-full-length.png" alt="log" className='h-[3rem]' />
+  <img src="/prism-full-length1.png" alt="log" className='h-[3.5rem]' />
     </div>
   )
 }
